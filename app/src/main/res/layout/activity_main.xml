@@ -1,0 +1,193 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActividadPrincipal">
+
+
+    <Button
+        android:id="@+id/tvclear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/Clear"
+        app:layout_constraintEnd_toEndOf="@+id/tvdividir"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvdividir" />
+
+    <Button
+        android:id="@+id/tvigual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/Igual"
+        app:layout_constraintStart_toEndOf="@+id/tvboton0"
+        app:layout_constraintTop_toBottomOf="@+id/tvboton9" />
+
+    <Button
+        android:id="@+id/tvpunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/Point"
+        app:layout_constraintStart_toStartOf="@+id/tvboton7"
+        app:layout_constraintTop_toBottomOf="@+id/tvboton7" />
+
+    <Button
+        android:id="@+id/tvboton0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/Boton0"
+        app:layout_constraintStart_toEndOf="@+id/tvpunto"
+        app:layout_constraintTop_toBottomOf="@+id/tvboton8" />
+
+    <Button
+        android:id="@+id/tvdividir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/Dividir"
+        app:layout_constraintEnd_toEndOf="@+id/tvmultiplicar"
+        app:layout_constraintStart_toEndOf="@+id/tvigual"
+        app:layout_constraintTop_toBottomOf="@+id/tvmultiplicar" />
+
+    <Button
+        android:id="@+id/tvboton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/Boton7"
+        app:layout_constraintStart_toStartOf="@+id/tvboton4"
+        app:layout_constraintTop_toBottomOf="@+id/tvboton4" />
+
+    <Button
+        android:id="@+id/tvboton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/Boton8"
+        app:layout_constraintStart_toEndOf="@+id/tvboton7"
+        app:layout_constraintTop_toBottomOf="@+id/tvboton5" />
+
+    <Button
+        android:id="@+id/tvboton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/Boton9"
+        app:layout_constraintStart_toEndOf="@+id/tvboton8"
+        app:layout_constraintTop_toBottomOf="@+id/tvboton6" />
+
+    <Button
+        android:id="@+id/tvmultiplicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/Multiplicar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tvboton9"
+        app:layout_constraintTop_toBottomOf="@+id/tvrestar" />
+
+    <Button
+        android:id="@+id/tvboton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/Boton4"
+        app:layout_constraintStart_toStartOf="@+id/tvboton1"
+        app:layout_constraintTop_toBottomOf="@+id/tvboton1" />
+
+    <Button
+        android:id="@+id/tvboton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/Boton5"
+        app:layout_constraintStart_toEndOf="@+id/tvboton4"
+        app:layout_constraintTop_toBottomOf="@+id/tvboton2" />
+
+    <Button
+        android:id="@+id/tvboton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/Boton6"
+        app:layout_constraintStart_toEndOf="@+id/tvboton5"
+        app:layout_constraintTop_toBottomOf="@+id/tvboton3" />
+
+    <Button
+        android:id="@+id/tvrestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/Restar"
+        app:layout_constraintEnd_toEndOf="@+id/tvsumar"
+        app:layout_constraintStart_toEndOf="@+id/tvboton6"
+        app:layout_constraintTop_toBottomOf="@+id/tvsumar" />
+
+    <Button
+        android:id="@+id/tvsumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/Sumar"
+        app:layout_constraintEnd_toEndOf="@+id/tvresult"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tvboton3"
+        app:layout_constraintTop_toBottomOf="@+id/tvresult" />
+
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="366dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/Result"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tvboton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/Boton1"
+        app:layout_constraintStart_toStartOf="@+id/tvresult"
+        app:layout_constraintTop_toBottomOf="@+id/tvresult" />
+
+    <Button
+        android:id="@+id/tvboton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/Boton2"
+        app:layout_constraintStart_toEndOf="@+id/tvboton1"
+        app:layout_constraintTop_toBottomOf="@+id/tvresult" />
+
+    <Button
+        android:id="@+id/tvboton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/Boton3"
+        app:layout_constraintStart_toEndOf="@+id/tvboton2"
+        app:layout_constraintTop_toBottomOf="@+id/tvresult" />
+</androidx.constraintlayout.widget.ConstraintLayout>

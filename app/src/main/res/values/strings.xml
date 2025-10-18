@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="Result">0</string>
+    <string name="Boton1">1</string>
+    <string name="Boton2">2</string>
+    <string name="Boton3">3</string>
+    <string name="Boton4">4</string>
+    <string name="Boton5">5</string>
+    <string name="Boton6">6</string>
+    <string name="Boton7">7</string>
+    <string name="Boton8">8</string>
+    <string name="Boton9">9</string>
+    <string name="Point">.</string>
+    <string name="Boton0">0</string>
+    <string name="Igual">=</string>
+    <string name="Sumar">+</string>
+    <string name="Restar">-</string>
+    <string name="Multiplicar">*</string>
+    <string name="Dividir">/</string>
+    <string name="Clear">C</string>
+</resources>
